@@ -29,6 +29,14 @@ const inchToCM = function(inches){
 };
 
 //implicit return
-const inchToCM = (inches0 => inches * 2.54;
+const inchToCM = inches => inches * 2.54;
+
+
+function add (a, b = 3){
+    const total = a + b;
+    return total;
+}
+
+const add = (a, b = 3) => a + b;
 
 

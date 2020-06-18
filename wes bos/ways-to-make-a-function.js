@@ -22,21 +22,67 @@ console.log("it works")
 //one line, own scope
 
 //explicit return
-const inchToCM = function(inches){
-    const cm = inches * 2.54;
-    //return inches * 2.54;
-    return cm;
-};
+// const inchToCM = function(inches){
+//     const cm = inches * 2.54;
+//     //return inches * 2.54;
+//     return cm;
+// };
 
 //implicit return
-const inchToCM = inches => inches * 2.54;
+// const inchToCM = inches => inches * 2.54;
 
 
-function add (a, b = 3){
-    const total = a + b;
-    return total;
+// function add (a, b = 3){
+//     const total = a + b;
+//     return total;
+// }
+
+// const add = (a, b = 3) => a + b;
+
+
+// function makeAPerson(first, last){
+    
+//     const baby = {
+        
+//         name: `${first} ${last}`,
+//         age: 0
+
+//     }
+
+//     return baby;
+// }
+
+// const makeAPerson = (first, last) => {
+    
+//    return {
+        
+//         name: `${first} ${last}`,
+//         age: 0
+
+//     }
+
+
+// }
+
+// const makeAPerson = (first, last) => ({name: `${first} ${last}`});
+
+//IIFE
+//immediately invoked function expression
+//anonymous function wrapped in parentheses
+
+// (function() {
+    
+//   console.log("Running an anon function");
+//    return 'you are cool'
+// })();
+
+//Methods functions in an object
+
+const robby = {
+
+    name: "robby",
+    sayHi: function() {
+        console.log("hey robby")
+        return 'hey robby'
+    }
 }
-
-const add = (a, b = 3) => a + b;
-
-

@@ -82,7 +82,44 @@ const robby = {
 
     name: "robby",
     sayHi: function() {
-        console.log("hey robby")
+        console.log(`Hey ${this.name}`);
         return 'hey robby'
+    },
+    //short hand
+    yellHi(){
+        console.log('Hey Robby')
+    },
+    tellHi: () => {
+        console.log("hello")
     }
 }
+
+//Callback - function that will happen when something is done - a click, time, ajax call
+
+   
+const button = document.querySelector(".clickme")
+
+function coolio(){
+    console.log("Coolio!!!")
+}
+
+
+button.addEventListener("click", robby.tellHi)
+button.addEventListener("click", coolio)
+
+
+setTimeout(function(){
+    console.log("Who am I not to trust?")
+}, 1000)
+setTimeout(function(){
+    console.log("I am what I want and attract what I am")
+}, 2000)
+setTimeout(function(){
+    console.log("Everything I can think is already in existence")
+}, 3000)
+setTimeout(function(){
+    console.log("I am a magnet to my dreams")
+}, 4000)
+setTimeout(function(){
+    console.log("I surrender to the creator, you the powerful universe, trusting in you divine time that you will grant my desire")
+}, 5000)

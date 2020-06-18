@@ -113,13 +113,13 @@ setTimeout(function(){
 }, 1000)
 setTimeout(function(){
     console.log("I am what I want and attract what I am")
-}, 2000)
-setTimeout(function(){
-    console.log("Everything I can think is already in existence")
 }, 3000)
 setTimeout(function(){
-    console.log("I am a magnet to my dreams")
-}, 4000)
+    console.log("Everything I can think is already in existence")
+}, 6000)
 setTimeout(function(){
-    console.log("I surrender to the creator, you the powerful universe, trusting in you divine time that you will grant my desire")
-}, 5000)
+    console.log("I am a magnet to my dreams")
+}, 8000)
+setTimeout(function(){
+    console.log("I surrender to the creator, you the powerful universe, trusting in your divine time that you will grant my desire")
+}, 10000)

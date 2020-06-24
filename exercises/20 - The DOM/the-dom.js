@@ -16,18 +16,21 @@ console.dir(heading.textContent)
 
 
 
+const nice = document.querySelector(".nice")
+nice.classList.add('open')
+nice.classList.remove('something')
+
+console.log(nice.classList)
 
 
+function toggleClick(){
+    nice.classList.toggle("round")
+}
 
-// const nice = document.querySelector(".nice")
-// nice.classList.add('open')
-// nice.classList.remove('something')
+nice.addEventListener("click", toggleClick)
 
-// console.log(nice.classList)
+console.log(heading.textContent)
 
 
-// function toggleClick(){
-//     nice.classList.toggle("round")
-// }
-
-// nice.addEventListener("click", toggleClick)
+nice.alt = 'something cool'//setter
+console.log(nice.alt)//getter

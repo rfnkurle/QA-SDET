@@ -30,7 +30,7 @@ img.alt = 'Cute Puppy!';
 div.appendChild(img);
 
 // with HTML string, make a div, with two paragraphs inside of it
-const myHTML = `
+cons myHTML = `
   <div class="myDiv">
     <p>Paragraph One</p>
     <p>Paragraph Two</p>

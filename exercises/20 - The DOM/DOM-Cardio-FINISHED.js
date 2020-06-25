@@ -91,3 +91,4 @@ function deleteCard(event) {
   buttonThatGotClicked.closest('.playerCard').remove();
 }
 // loop over them and attach a listener
+buttons.forEach(button => button.addEventListener('click', deleteCard));

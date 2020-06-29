@@ -92,3 +92,4 @@ function deleteCard(event) {
 }
 // loop over them and attach a listener
 buttons.forEach(button => button.addEventListener('click', deleteCard));
+//dom manipulation
